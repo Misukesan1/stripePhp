@@ -1,4 +1,5 @@
 # stripePhp
 gestion cart with Stripe Php
 
-composer install (initialize the stripePhp library with composer.json)
+require composer.
+command for install the stripePhp library => composer install
