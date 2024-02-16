@@ -1,0 +1,77 @@
+:root {
+    /* colors */
+    --main-color: rgba(180, 180, 180, 0.5);
+    --text-color: rgb(30, 31, 31);
+    --text-color-opa7: rgb(30, 31, 31, 0.7);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+
+header#Header {
+    padding: 15px 0;
+    background-color: var(--main-color);
+}
+
+#CartIcon:hover {
+    cursor: pointer;
+}
+
+section#Products {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: var(--main-color);
+}
+
+#Products div.card {
+    color: var(--text-color-opa7);
+    width: 18rem;
+}
+
+#Products div.card li, #cartModal div.card li {
+    color: var(--text-color-opa7);
+}
+
+#Products div.quantity, #cartModal div.quantity {
+    margin: 0 .5rem;
+}
+
+/* input quantity product */
+#Products input[type="text"] {
+    width: 3rem;
+}
+
+#Products div.quantity p.icon, #cartModal div.quantity p.icon {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 0 .3rem;
+}
+
+#Products p.icon:hover, #cartModal p.icon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#cartModal img {
+    width: 7rem;
+    height: 7rem;
+}
+
+#cartModal p {
+    margin: 0;
+}
+
+#cartModal h5 {
+    margin: 0;
+    padding: 0;
+}
+#cartModal li.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
